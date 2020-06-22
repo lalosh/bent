@@ -129,7 +129,7 @@ const mkrequest = (statusCodes, method, encoding, headers, baseurl) => (_url, bo
       decodings(res)
       res.status = res.statusCode
       if (!statusCodes.has(res.statusCode)) {
-        return reject(new StatusError(res))
+        // return reject(new StatusError(res))
       }
 
       if (!encoding) return resolve(res)
