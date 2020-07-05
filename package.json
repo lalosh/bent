@@ -1,6 +1,6 @@
 {
-  "name": "bent",
-  "version": "0.0.0-dev",
+  "name": "@lalosh/forgiving-bent",
+  "version": "0.0.1-dev",
   "description": "Functional HTTP client for Node.js w/ async/await.",
   "main": "src/nodejs.js",
   "browser": "src/browser.js",
